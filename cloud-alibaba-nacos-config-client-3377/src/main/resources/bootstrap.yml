@@ -1,0 +1,17 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: liaoqingting.com:8848
+        #group: YYS_GROUP
+        #namespace: fcf7749a-3087-41d4-a069-3c6c1e9041b1
+      config:
+        server-addr: liaoqingting.com:8848
+        file-extension: yml
+        group: YYS_GROUP
+        namespace: fcf7749a-3087-41d4-a069-3c6c1e9041b1
